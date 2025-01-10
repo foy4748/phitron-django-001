@@ -43,3 +43,11 @@ body {
 .primary-text {
   color: #fff;
 }
+
+.max-w-\[500\p\x\] {
+  max-width: 500px;
+}
+
+::placeholder {
+  color: #eeee !important;
+}
