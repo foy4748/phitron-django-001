@@ -51,3 +51,26 @@ body {
 ::placeholder {
   color: #eeee !important;
 }
+
+.navbar-toggler {
+  background-color: #00ffff !important;
+}
+
+.section-gap {
+  margin: 0 inherit;
+}
+
+.margin-y-4 {
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .grid {
+    display: block;
+  }
+
+  .section-gap {
+    margin: 50px auto;
+  }
+}
