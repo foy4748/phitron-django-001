@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #1a1a1a;
 }
@@ -10,4 +14,32 @@ body {
   width: 50px;
   height: 50px;
   object-fit: cover;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.lg-col-span-9 {
+  grid-column: auto/span 9;
+}
+
+.lg-col-span-3 {
+  grid-column: auto/span 3;
+}
+
+.theme-text {
+  color: #00ffff;
+}
+
+.theme-bg {
+  background-color: #00ffff !important;
+}
+
+.primary-text {
+  color: #fff;
 }
